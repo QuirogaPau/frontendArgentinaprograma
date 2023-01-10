@@ -1,0 +1,68 @@
+* {
+   color: blue; 
+}
+
+/*Se puede desde CSS compartir propiedades entre los mismos elementos
+
+Selectores: Que pasa si quiero que un elemento que se repite, tenga propiedades diferentes a las demás? Los selectores permitaran decir que a ese elemento lo voy a ubicar univocamente dentro del documento HTML y para eso se va a utilizar es el atributo ID="" (SELECTOR DE UN ID, ejemplo: 
+css --> #para1 {
+    text-aling: center;
+    color: red;
+}
+html --> <p id="para1"> Hello world </p>)
+*/
+p, span {
+    color: red;
+    width: 300px;
+}
+/**
+Esto es un comentario de un documento css
+El orden de las propiedades se leen arriba, a la derecha, abajo y a la izquierda. 
+*/
+
+h1 {
+    border: 1px solid black;
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    /*padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 20px;*/
+    /*OTRA FORMA DE ESCRIBIR LAS PROPIEDADES ES:*/
+
+    padding: 30px /*top*/ 15px /*right*/ 25px /*bottom*/ 20px /*left*/;
+    font-weight: bold;
+    color:bisque
+}
+
+/*Lorem Ipsum es simplemente un texto ficticio de la industria de la impresión y la composición tipográfica.
+Que se puede utilizar para hacer relleno y probar las cajas*/
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#mi_parrafo {
+    color: yellowgreen;
+    font-size: 23px;
+    border: 1px solid black;
+}
+
+/*CLASES: en el caso de crear un elemento que sea reutilizable y qei se pueda aplicar a muchos elementos (en vez de entrar por el nombre del elemento o el tag), podemos usar las clases en CSS   */
+
+.estaesmiclase {
+    font-weight: bold;
+    color: lightblue;
+}
+
+/*section p {
+    font-variant: normal;
+
+}*/
